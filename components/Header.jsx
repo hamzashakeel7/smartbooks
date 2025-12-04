@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,8 +13,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-sm">
-              ✓
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center text-white font-bold text-sm">
+              <Image
+                src="/logo2.png"
+                alt="SmartBooks Logo"
+                width={45}
+                height={45}
+              />
             </div>
             <span
               className="text-xl font-bold text-foreground"

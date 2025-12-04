@@ -61,7 +61,7 @@ export default function Hero() {
             />
           </button>
           <button className="px-8 py-4 bg-transparent border-2 border-primary text-primary font-bold text-lg rounded-lg hover:bg-primary/5 transition-all duration-300 hover:scale-105">
-            Learn More
+            <a href="https://www.webwizdurrani.com/"> Learn More </a>
           </button>
         </div>
 

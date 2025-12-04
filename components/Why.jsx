@@ -89,7 +89,7 @@ export default function WhyChoose() {
               <p className="font-semibold text-foreground">5-Star Reviews</p>
               <p className="text-sm text-foreground/60">10+ Happy Clients</p>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
                 <span className="text-2xl">🏆</span>
               </div>
@@ -97,7 +97,7 @@ export default function WhyChoose() {
               <p className="text-sm text-foreground/60">
                 Best Bookkeeping 2024
               </p>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
                 <span className="text-2xl">✅</span>

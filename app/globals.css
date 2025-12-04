@@ -11,7 +11,7 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   /* Updated primary color to vibrant orange for SmartBooks brand */
-  --primary: oklch(0.6 0.2 33);
+  --primary: #396faf;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.95 0 0);
   --secondary-foreground: oklch(0.6 0.2 33);

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="w-full bg-foreground text-white py-16 px-4 sm:px-6 lg:px-8">
@@ -6,8 +8,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center font-bold text-sm animate-bounce-in">
-                ✓
+              <div className="w-14 h-14 rounded-lg flex items-center justify-center font-bold text-sm animate-bounce-in">
+                <Image
+                  src="/logo2.png"
+                  alt="SmartBooks Logo"
+                  width={40}
+                  height={40}
+                />
               </div>
               <span
                 className="text-xl font-bold"
